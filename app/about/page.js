@@ -25,7 +25,7 @@ export default function AboutPage() {
             <div className="animate-on-scroll">
               <span className="eyebrow">Our Mission</span>
               <h2 className="mt-3 font-display text-4xl font-700 text-gray-900">
-                Healing Through Nature,<br /><span className="text-gradient">Rooted in Kathmandu</span>
+                Healing Through Nature,<br /><span className="text-gradient">Rooted in Lalitpur</span>
               </h2>
               <p className="mt-5 font-body text-base text-gray-600 leading-relaxed">
                 Aastha Nature Cure Clinic Pvt. Ltd. was founded on the principle that the human
@@ -36,7 +36,7 @@ export default function AboutPage() {
               <p className="mt-4 font-body text-base text-gray-600 leading-relaxed">
                 We combine evidence-based physiotherapy with traditional naturopathic treatments,
                 acupuncture, cupping, massage, shirodhara, and yoga — all delivered by a team of
-                qualified, compassionate therapists in the heart of Kathmandu.
+                qualified, compassionate therapists in the heart of Lalitpur.
               </p>
               <div className="mt-8 grid grid-cols-2 gap-4">
                 {STATS.map((s) => (

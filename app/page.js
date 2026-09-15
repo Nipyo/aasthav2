@@ -18,7 +18,7 @@ export default function HomePage() {
           <div className="animate-on-scroll text-center mb-14">
             <span className="eyebrow">What We Offer</span>
             <h2 className="mt-3 font-display text-4xl font-700 text-gray-900 md:text-5xl">
-              Comprehensive <span className="text-gradient">Natural Therapies</span>
+              Comprehensive <span className="text-gradient">Natural Therapies </span>
             </h2>
             <p className="mx-auto mt-4 max-w-xl font-body text-base text-gray-500">
               Nine specialised treatment categories — all drug-free, all rooted in nature.
