@@ -11,14 +11,14 @@ const PACKAGES = [
   { name: "Comprehensive Wellness", price: 3000, duration: "3-day package", includes: ["Physiotherapy","Naturopathy treatments","Shirodhara session","Daily yoga"], icon: "✨", color: "from-green-700 to-green-900", featured: true },
 ];
 
-const ROOM_CHARGES = [
-  { type: "General Room", price: 500, note: "Room only" },
-  { type: "Single Cabin (Non-Attach)", price: 1000, note: "Room only" },
-  { type: "Single Cabin (Attach)", price: 1500, note: "Room only" },
-  { type: "General Room", price: 2800, note: "Room + All Treatments" },
-  { type: "Single Cabin (Non-Attach)", price: 3300, note: "Room + All Treatments" },
-  { type: "Single Cabin (Attach)", price: 3800, note: "Room + All Treatments" },
-];
+// const ROOM_CHARGES = [
+//   { type: "General ", price: 500, note: " only" },
+//   { type: "Single Cabin (Non-Attach)", price: 1000, note: " Cabin only" },
+//   { type: "Single Cabin (Attach)", price: 1500, note: "Cabin only" },
+//   { type: "General Cabin", price: 2800, note: " All Treatments" },
+//   { type: "Single Cabin (Non-Attach)", price: 3300, note: " All Treatments" },
+//   { type: "Single Cabin (Attach)", price: 3800, note: "All Treatments" },
+// ];
 
 export default function PackagesPage() {
   return (
@@ -89,7 +89,7 @@ export default function PackagesPage() {
                   ))}
                 </ul>
               </div>
-              <div className="animate-on-scroll rounded-xl2 border border-green-500 bg-white p-6 shadow-card" style={{ transitionDelay: "100ms" }}>
+              {/* <div className="animate-on-scroll rounded-xl2 border border-green-500 bg-white p-6 shadow-card" style={{ transitionDelay: "100ms" }}>
                 <h3 className="font-display text-lg font-700 text-gray-900 mb-4">🏥 Room + All Treatments</h3>
                 <ul className="space-y-3">
                   {ROOM_CHARGES.filter((r) => r.note !== "Room only").map((r) => (
@@ -99,7 +99,7 @@ export default function PackagesPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
             <p className="mt-4 font-body text-xs text-gray-400 text-center">
               Package includes: Doctor fee, Nursing charge, Room charge and Treatment charges. <br/>

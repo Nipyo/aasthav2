@@ -21,7 +21,7 @@ export default function Hero() {
           {/* Eyebrow */}
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-green-50 border border-green-200 px-4 py-1.5">
             <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-            <span className="eyebrow text-green-700">Natural Healing Clinic, Kathmandu</span>
+            <span className="eyebrow text-green-700">Natural Healing Clinic, Lalitpur </span>
           </div>
 
           {/* Tagline in Devanagari */}
@@ -36,7 +36,7 @@ export default function Hero() {
           <p className="mt-6 max-w-lg font-body text-base leading-relaxed text-gray-600 md:text-lg">
             Aastha Nature Cure Clinic offers holistic, drug-free healing through
             physiotherapy, acupuncture, naturopathy, and yoga — trusted by thousands
-            of patients across Kathmandu.
+            of patients across Lalitpur.
           </p>
 
           {/* CTA Buttons */}

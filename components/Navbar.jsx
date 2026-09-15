@@ -5,6 +5,8 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { NAV_LINKS } from "@/lib/constants";
 
+
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -20,9 +22,67 @@ export default function Navbar() {
     <header className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-md shadow-green-100/60" : "bg-white/95 backdrop-blur"}`}>
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-10">
         {/* Logo */}
-        <Link href="/" className="focus-ring flex items-center" onClick={() => setOpen(false)}>
-          <Image src="/images/logo.png" alt="Aastha Nature Cure Clinic" width={250} height={85} className="h-16 w-auto" priority />
-        </Link>
+<Link
+  href="/"
+  onClick={() => setOpen(false)}
+  className="flex items-center gap-3 group"
+>
+  <Image
+    src="/images/logo11.png"
+    alt="Aastha Nature Cure Clinic"
+    width={100}
+    height={100}
+    priority
+    className="
+      h-14 w-14
+      sm:h-16 sm:w-16
+      md:h-[90px] md:w-[90px]
+      object-contain
+      transition-all duration-300
+      group-hover:scale-105
+    "
+  />
+
+  <div>
+    <h1 className="
+      font-serif
+      text-xl sm:text-xl md:text-xl
+      font-semibold
+      tracking-tight
+      text-green-800
+    ">
+      Aastha Nature Cure Clinic
+    </h1>
+
+    <div className="flex items-center gap-2 mt-1 text-center">
+      <span className="h-[1px] w-6 bg-[#c99b4a]" />
+
+      <span className="
+        text-xs sm:text-sm
+        font-medium
+        text-green-700
+        ml-2
+      
+
+      ">
+        Pvt. Ltd.
+      </span>
+
+      <span className="h-[1px] w-6 bg-[#c99b4a]" />
+    </div>
+
+    <p className="
+      mt-1 ml-2
+      text-xs sm:text-sm
+      font-medium
+      text-green-700
+      tracking-wider
+      text-center
+    ">
+      स्वस्थं जीवनम्
+    </p>
+  </div>
+</Link>
 
         {/* Desktop nav */}
         <div className="hidden items-center gap-8 lg:flex">
