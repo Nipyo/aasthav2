@@ -97,7 +97,7 @@ export default function AboutPage() {
           <h2 className="font-display text-3xl font-700 text-gray-900">Ready to experience natural healing?</h2>
           <p className="mt-4 font-body text-base text-gray-500">Book an appointment with our expert team today.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/appointment" className="btn-green focus-ring">📅 Book Appointment</Link>
+            <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" className="btn-green focus-ring">📅 Book Appointment</Link>
             <Link href="/services" className="btn-outline focus-ring">Our Services →</Link>
           </div>
         </div>

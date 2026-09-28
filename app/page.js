@@ -83,11 +83,11 @@ export default function HomePage() {
                     title: "Personalised Treatment Plans",
                     desc: "Every patient receives a plan tailored specifically to their condition and goals.",
                   },
-                  {
-                    icon: "🏥",
-                    title: "In-Patient Facilities",
-                    desc: "General wards and private cabins for multi-day treatment packages.",
-                  },
+                  // {
+                  //   icon: "🏥",
+                  //   title: "In-Patient Facilities",
+                  //   desc: "General wards and private cabins for multi-day treatment packages.",
+                  // },
                 ].map((f) => (
                   <div
                     key={f.title}
@@ -119,7 +119,7 @@ export default function HomePage() {
                 </Link>
 
                 <Link
-                  href="/appointment"
+                  href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7"
                   className="btn-outline focus-ring"
                 >
                   Book Now
@@ -246,7 +246,7 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
-              href="/appointment"
+              href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7"
               className="focus-ring rounded-full bg-white px-8 py-3.5 font-body text-sm font-700 text-green-700 shadow-lifted transition-all hover:-translate-y-1 hover:shadow-2xl"
             >
               📅 Book Appointment

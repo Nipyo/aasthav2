@@ -6,7 +6,7 @@ import { SERVICE_CATEGORIES, PHOTOS } from "@/lib/constants";
 
 export default function ServicesPage() {
   const [query, setQuery] = useState("");
-  const [openId, setOpenId] = useState("physiotherapy");
+  const [openId, setOpenId] = useState(null);
 
   const filtered = useMemo(() => {
     const t = query.trim().toLowerCase();
@@ -98,7 +98,7 @@ export default function ServicesPage() {
           </div>
 
           <div className="mt-8 text-center">
-            <Link href="/appointment" className="btn-green focus-ring">📅 Book a Treatment →</Link>
+            <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" className="btn-green focus-ring">📅 Book a Treatment →</Link>
           </div>
         </div>
       </section>

@@ -41,7 +41,7 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link href="/appointment" className="btn-green focus-ring">
+            <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" className="btn-green focus-ring">
               📅 Book Appointment
             </Link>
             <Link href="/services" className="btn-outline focus-ring">

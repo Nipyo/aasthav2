@@ -216,7 +216,7 @@ export default function Footer() {
 
               <li>
                 <Link
-                  href="/appointment"
+                  href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7"
                   className="focus-ring font-body text-sm font-700 text-green-300 transition-colors hover:text-white"
                 >
                   › Book Appointment

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AppointmentForm from "@/components/AppointmentForm";
+
 import { CLINIC_PHONES, PHOTOS } from "@/lib/constants";
 
 export const metadata = {
@@ -75,7 +75,7 @@ export default function AppointmentPage() {
             {/* Form */}
             <div className="animate-on-scroll rounded-xl3 border border-green-100 bg-white p-7 shadow-lifted sm:p-9" style={{ transitionDelay: "100ms" }}>
               <h2 className="font-display text-2xl font-700 text-gray-900 mb-6">Request Your Appointment</h2>
-              <AppointmentForm />
+             
             </div>
           </div>
         </div>

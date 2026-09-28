@@ -82,14 +82,14 @@ export default function AyurHealthPopup() {
           <div className="flex flex-col gap-3 sm:flex-row">
 
             <a
-              href="tel:+977XXXXXXXXXX"
+              href="tel:+9779851436667"
               className="flex flex-1 items-center justify-center rounded-full bg-green-700 px-6 py-3.5 font-bold text-white transition hover:bg-green-800"
             >
               📞 Contact Us
             </a>
 
             <a
-              href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
+              href={`https://wa.me/${+9779851436667}?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-1 items-center justify-center rounded-full bg-[#25D366] px-6 py-3.5 font-bold text-white transition hover:bg-[#1ebe5d]"

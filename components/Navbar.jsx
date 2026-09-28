@@ -77,6 +77,7 @@ export default function Navbar() {
       font-medium
       text-green-700
       tracking-wider
+      text-center
                                            
       ">
       स्वस्थं जीवनम्
@@ -98,7 +99,7 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <Link href="/appointment" className="btn-green focus-ring text-sm">
+          <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" className="btn-green focus-ring text-sm">
             <span>📅</span> Book Appointment
           </Link>
         </div>
@@ -124,7 +125,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link href="/appointment" onClick={() => setOpen(false)} className="btn-green focus-ring mt-4 w-full justify-center text-sm">
+          <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" onClick={() => setOpen(false)} className="btn-green focus-ring mt-4 w-full justify-center text-sm">
             📅 Book Appointment
           </Link>
         </div>

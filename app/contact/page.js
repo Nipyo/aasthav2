@@ -65,7 +65,7 @@ export default function ContactPage() {
           <div className="animate-on-scroll mt-10 rounded-xl3 bg-green-700 p-10 text-center text-white">
             <h2 className="font-display text-3xl font-700">Ready to book your appointment?</h2>
             <p className="mt-3 font-body text-sm text-green-100">Book online in under a minute and we&apos;ll confirm by phone.</p>
-            <Link href="/appointment" className="focus-ring mt-6 inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 font-body text-sm font-700 text-green-700 shadow-lifted transition-all hover:-translate-y-1 hover:shadow-2xl">
+            <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" className="focus-ring mt-6 inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 font-body text-sm font-700 text-green-700 shadow-lifted transition-all hover:-translate-y-1 hover:shadow-2xl">
               📅 Book Appointment
             </Link>
           </div>

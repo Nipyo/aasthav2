@@ -64,7 +64,7 @@ export default function PackagesPage() {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/appointment" className="btn-green focus-ring mt-6 justify-center text-sm">
+                  <Link href="" className="btn-green focus-ring mt-6 justify-center text-sm">
                     Book This Package
                   </Link>
                 </div>
