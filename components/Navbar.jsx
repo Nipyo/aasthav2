@@ -55,9 +55,9 @@ export default function Navbar() {
     </h1>
 
     <div className="flex items-center gap-2 mt-1 text-center">
-      <span className="h-[1px] w-6 bg-[#c99b4a]" />
+      {/* <span className="h-[1px] w-6 bg-[#c99b4a]" /> */}
 
-      <span className="
+      {/* <span className="
         text-xs sm:text-sm
         font-medium
         text-green-700
@@ -66,19 +66,19 @@ export default function Navbar() {
 
       ">
         Pvt. Ltd.
-      </span>
+      </span> */}
 
-      <span className="h-[1px] w-6 bg-[#c99b4a]" />
+      {/* <span className="h-[1px] w-6 bg-[#c99b4a]" /> */}
     </div>
 
     <p className="
-      mt-1 ml-2
+      mt-1 
       text-xs sm:text-sm
       font-medium
       text-green-700
       tracking-wider
-      text-center
-    ">
+                                           
+      ">
       स्वस्थं जीवनम्
     </p>
   </div>
