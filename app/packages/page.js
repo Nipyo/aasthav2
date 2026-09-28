@@ -12,14 +12,14 @@ const PACKAGES = [
   { name: "Comprehensive Wellness", price: 3000, duration: "3-day package", includes: ["Physiotherapy","Naturopathy treatments","Shirodhara session","Daily yoga"], icon: "✨", color: "from-green-700 to-green-900", featured: true },
 ];
 
-const ROOM_CHARGES = [
-  { type: "General ", price: 500, note: " only" },
-  { type: "Single Cabin (Non-Attach)", price: 1000, note: " Cabin only" },
-  { type: "Single Cabin (Attach)", price: 1500, note: "Cabin only" },
-  { type: "General Cabin", price: 2800, note: " All Treatments" },
-  { type: "Single Cabin (Non-Attach)", price: 3300, note: " All Treatments" },
-  { type: "Single Cabin (Attach)", price: 3800, note: "All Treatments" },
-];
+// const ROOM_CHARGES = [
+//   { type: "General ", price: 500, note: " only" },
+//   { type: "Single Cabin (Non-Attach)", price: 1000, note: " Cabin only" },
+//   { type: "Single Cabin (Attach)", price: 1500, note: "Cabin only" },
+//   { type: "General Cabin", price: 2800, note: " All Treatments" },
+//   { type: "Single Cabin (Non-Attach)", price: 3300, note: " All Treatments" },
+//   { type: "Single Cabin (Attach)", price: 3800, note: "All Treatments" },
+// ];
 
 export default function PackagesPage() {
   return (
@@ -73,7 +73,7 @@ export default function PackagesPage() {
           </div>
 
           {/* In-patient room charges */}
-          <div className="mt-20">
+          {/* <div className="mt-20">
             <div className="animate-on-scroll text-center mb-10">
               <span className="eyebrow">In-Patient Care</span>
               <h2 className="mt-3 font-display text-4xl font-700 text-gray-900">Room Charges</h2>
@@ -107,7 +107,7 @@ export default function PackagesPage() {
               Package includes: Doctor fee, Nursing charge, Room charge and Treatment charges. <br/>
               Package excludes: Acupuncture needles, Wellness oil, Food &amp; other products.
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -68,7 +68,7 @@ export default function Footer() {
 
                 {/* Facebook */}
                 <a
-                  href="https://www.facebook.com/YOUR_PAGE"
+                  href="https://www.facebook.com/people/Aastha-Nature-Cure-Clinic/61593873347565/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -85,7 +85,7 @@ export default function Footer() {
 
                 {/* Instagram */}
                 <a
-                  href="https://www.instagram.com/YOUR_PAGE"
+                  href="https://www.instagram.com/aasthanaturecureclinic/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -118,7 +118,7 @@ export default function Footer() {
 
                 {/* X / Twitter */}
                 <a
-                  href="https://x.com/YOUR_PAGE"
+                  href="https://x.com/AasthaNaturecc"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="X (Twitter)"
@@ -135,7 +135,7 @@ export default function Footer() {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/company/YOUR_PAGE"
+                  href="https://www.linkedin.com/company/aastha-nature-cure-clinic"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -264,7 +264,7 @@ export default function Footer() {
 
               {/* Opening Hours */}
               <div className="flex items-center gap-2 font-body text-xs text-green-200">
-                🕐 Open daily, 9:00 AM – 5:00 PM
+                🕐 Open daily, 7:00 AM – 6:00 PM
               </div>
 
             </div>
