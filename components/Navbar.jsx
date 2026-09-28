@@ -28,7 +28,7 @@ export default function Navbar() {
   className="flex items-center gap-3 group"
 >
   <Image
-    src="/images/logo11.png"
+    src="/images/logo.png"
     alt="Aastha Nature Cure Clinic"
     width={100}
     height={100}
