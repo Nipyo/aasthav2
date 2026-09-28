@@ -47,7 +47,49 @@ export default function Footer() {
                 height={68}
                 className="h-12 w-auto"
               />
+      
+
+              
             </div>
+                     <div>
+    <h1 className="
+      font-serif
+      text-xl sm:text-xl md:text-xl
+      font-semibold
+      tracking-tight
+      text-white-800
+    ">
+      Aastha Nature Cure Clinic
+    </h1>
+
+    <div className="flex items-center gap-2 mt-1 text-center">
+      {/* <span className="h-[1px] w-6 bg-[#c99b4a]" /> */}
+
+      {/* <span className="
+        text-xs sm:text-sm
+        font-medium
+        text-green-700
+        ml-2
+      
+
+      ">
+        Pvt. Ltd.
+      </span> */}
+
+      {/* <span className="h-[1px] w-6 bg-[#c99b4a]" /> */}
+    </div>
+
+    {/* <p className="
+      mt-1 
+      text-xs sm:text-sm
+      font-medium
+      text-green-700
+      
+                                           
+      ">
+      स्वस्थं जीवनम्
+    </p> */}
+  </div>
 
             <p className="mt-3 font-display text-sm italic text-green-300">
               {CLINIC_TAGLINE}
