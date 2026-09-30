@@ -64,7 +64,7 @@ export default function PackagesPage() {
                       </li>
                     ))}
                   </ul>
-                  <Link href="" className="btn-green focus-ring mt-6 justify-center text-sm">
+                  <Link href="https://bookings.suga360.com/7fa8d61c-85d9-410e-915d-5897a48614d7" className="btn-green focus-ring mt-6 justify-center text-sm">
                     Book This Package
                   </Link>
                 </div>
