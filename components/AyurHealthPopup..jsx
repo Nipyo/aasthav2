@@ -21,6 +21,7 @@ export default function AyurHealthPopup() {
   if (!isOpen) return null;
 
   const whatsappNumber = "9779851436667";
+
   const whatsappMessage = encodeURIComponent(
     "Hello, I am interested in the AyurHealth offer. Please provide more details."
   );
@@ -31,6 +32,7 @@ export default function AyurHealthPopup() {
 
         {/* Close Button */}
         <button
+          type="button"
           onClick={() => setIsOpen(false)}
           aria-label="Close popup"
           className="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-2xl text-gray-700 shadow-md transition hover:bg-gray-100"
@@ -39,11 +41,17 @@ export default function AyurHealthPopup() {
         </button>
 
         {/* Promotional Image */}
-        <div className="relative">
+        <div className="relative w-full bg-gray-100 object-cover">
           <img
-            src="/ayurhealth-offer.png"
+            src="/ayurhealth.PNG"
             alt="AyurHealth Special Offer"
-            className="h-auto max-h-[360px] w-full object-cover"
+            className="block h-auto max-h-[460px] w-full object-cover "
+            onError={(e) => {
+              console.error(
+                "AyurHealth image could not be loaded. Make sure the file exists at public/ayurhealth.PNG"
+              );
+              e.currentTarget.style.display = "none";
+            }}
           />
         </div>
 
@@ -70,7 +78,7 @@ export default function AyurHealthPopup() {
             </p>
 
             <p className="mt-1 text-2xl font-extrabold tracking-widest text-green-800">
-              AYURHEALTH
+              AASTHA NATURE 
             </p>
 
             <p className="mt-1 text-sm text-gray-600">
@@ -81,6 +89,7 @@ export default function AyurHealthPopup() {
           {/* Buttons */}
           <div className="flex flex-col gap-3 sm:flex-row">
 
+            {/* Phone */}
             <a
               href="tel:+9779851436667"
               className="flex flex-1 items-center justify-center rounded-full bg-green-700 px-6 py-3.5 font-bold text-white transition hover:bg-green-800"
@@ -88,8 +97,9 @@ export default function AyurHealthPopup() {
               📞 Contact Us
             </a>
 
+            {/* WhatsApp */}
             <a
-              href={`https://wa.me/${+9779851436667}?text=${whatsappMessage}`}
+              href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-1 items-center justify-center rounded-full bg-[#25D366] px-6 py-3.5 font-bold text-white transition hover:bg-[#1ebe5d]"
@@ -99,7 +109,9 @@ export default function AyurHealthPopup() {
 
           </div>
 
+          {/* Maybe Later */}
           <button
+            type="button"
             onClick={() => setIsOpen(false)}
             className="mt-4 text-sm text-gray-500 underline underline-offset-4 hover:text-gray-700"
           >
@@ -111,3 +123,4 @@ export default function AyurHealthPopup() {
     </div>
   );
 }
+
