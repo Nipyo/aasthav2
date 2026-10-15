@@ -97,7 +97,7 @@ export default function Footer() {
 
             <p className="mt-3 max-w-xs font-body text-xs leading-relaxed text-green-200">
               Holistic, drug-free healing through physiotherapy, acupuncture,
-              naturopathy and yoga in the heart of Kathmandu.
+              naturopathy and yoga in the heart of Lalitpur.
             </p>
 
             {/* Social Media */}
@@ -306,7 +306,7 @@ export default function Footer() {
 
               {/* Opening Hours */}
               <div className="flex items-center gap-2 font-body text-xs text-green-200">
-                🕐 Open daily, 7:00 AM – 6:00 PM
+                🕐 Open daily, 8:00 AM – 7:00 PM
               </div>
 
             </div>

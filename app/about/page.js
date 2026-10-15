@@ -38,14 +38,53 @@ export default function AboutPage() {
                 acupuncture, cupping, massage, shirodhara, and yoga — all delivered by a team of
                 qualified, compassionate therapists in the heart of Lalitpur.
               </p>
-              <div className="mt-8 grid grid-cols-2 gap-4">
-                {STATS.map((s) => (
-                  <div key={s.label} className="rounded-xl bg-green-50 border border-green-100 p-4 text-center">
-                    <p className="font-display text-3xl font-700 text-green-700">{s.number}</p>
-                    <p className="mt-1 font-body text-xs text-gray-500">{s.label}</p>
-                  </div>
-                ))}
-              </div>
+             <div className="mt-8 grid grid-cols-2 gap-4">
+  {STATS.map((s, i) => (
+    <div
+      key={s.label}
+      className={`
+        group relative overflow-hidden
+        rounded-2xl border border-green-100
+        bg-gradient-to-br from-green-50 via-white to-green-50
+        p-4 text-center
+        shadow-sm
+        transition-all duration-500
+        hover:-translate-y-1
+        hover:border-green-200
+        hover:shadow-lg
+        hover:shadow-green-900/10
+        ${i === 0 ? "delay-75" : ""}
+        ${i === 1 ? "delay-150" : ""}
+        ${i === 2 ? "delay-200" : ""}
+        ${i === 3 ? "delay-300" : ""}
+      `}
+    >
+      {/* Glow */}
+      <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-green-200/30 blur-2xl transition-all duration-700 group-hover:scale-150" />
+
+      {/* Number */}
+      <p className="relative font-display text-3xl font-extrabold tracking-tight text-green-700 transition-all duration-500 group-hover:scale-110 group-hover:text-green-800">
+        <span className="inline-block animate-pulse">
+          {s.number}
+        </span>
+      </p>
+
+      {/* Label */}
+      <p className="relative mt-1 font-body text-xs font-semibold uppercase tracking-wider text-gray-500 transition-colors duration-300 group-hover:text-green-700">
+        {s.label}
+      </p>
+
+      {/* Small line */}
+      <div className="mx-auto mt-3 h-1 w-10 overflow-hidden rounded-full bg-green-100">
+        <div className="h-full w-full rounded-full bg-green-500 transition-all duration-500 group-hover:w-16 group-hover:bg-green-600" />
+      </div>
+
+      {/* Bottom glow */}
+      <div className="absolute bottom-0 left-1/2 h-[2px] w-0 -translate-x-1/2 bg-green-500 shadow-green transition-all duration-500 group-hover:w-1/2" />
+    </div>
+  ))}
+</div>
+
             </div>
             <div className="animate-on-scroll grid grid-cols-2 gap-4" style={{ transitionDelay: "150ms" }}>
               <div className="relative aspect-square overflow-hidden rounded-xl3 shadow-lifted">
